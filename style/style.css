@@ -1,0 +1,48 @@
+#con {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+
+input {
+    color: #17B8A6;
+}
+
+#log {
+    background: #17B8A6;
+    color: #fff;
+}
+
+
+#img_con {
+    z-index: 999999;
+}
+
+#img_bg {
+    position: fixed;
+    z-index: 0;
+}
+
+#icon1,
+#icon2 {
+    border-bottom: 3px solid #212529;
+    opacity: 0.4;
+    position: relative;
+    left: 3px;
+    z-index: 999999999;
+    background: white;
+}
+
+.forgot {
+    position: relative;
+    left: 49px;
+    font-size: 1em;
+}
+
+#icon1.change,
+#icon2.change {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
